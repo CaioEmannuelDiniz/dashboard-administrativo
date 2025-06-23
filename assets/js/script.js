@@ -7,7 +7,7 @@ menuBtn.addEventListener("click", () => {
 });
 
 
-fetch("/assets/json/dados.json")
+fetch("./assets/json/dados.json")
   .then((resposta) => resposta.json())
   .then((dados) => {
     console.log("JSON carregado:", dados);
