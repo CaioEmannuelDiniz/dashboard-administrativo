@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard Administrativo</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/8899/8899687.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- Botão Hamburguer -->
+    <button id="menu-toggle" class="hamburguer">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Menu Lateral -->
+    <aside class="menu-lateral" id="menu-lateral">
+      <h2>Menu</h2>
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Gráficos</a></li>
+          <li><a href="#">Relatórios</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <h1>Dashboard Administrativo</h1>
+      <div class="secao-graficos">
+        <canvas id="graficoVendas"></canvas>
+        <canvas id="graficoAcessos"></canvas>
+        <canvas id="graficoSetores"></canvas>
+        <canvas id="graficoProdutividade"></canvas>
+        <canvas id="graficoCompetencias"></canvas>
+      </div>
+    </main>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+[
+  {
+    "tipo": "vendas",
+    "meses": ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"],
+    "valores": [1500, 2300, 1800, 2100, 1950, 2400]
+  },
+  {
+    "tipo": "acessos",
+    "meses": ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"],
+    "valores": [320, 450, 500, 600, 750, 900]
+  },
+  {
+    "tipo": "setores",
+    "labels": ["Financeiro", "RH", "Comercial", "TI"],
+    "valores": [25, 15, 40, 20]
+  },
+  {
+    "tipo": "produtividade",
+    "labels": ["Equipe A", "Equipe B", "Equipe C"],
+    "valores": [300, 450, 250]
+  },
+  {
+    "tipo": "competencias",
+    "labels": [
+      "Comunicação",
+      "Organização",
+      "Pontualidade",
+      "Produtividade",
+      "Trabalho em equipe"
+    ],
+    "valores": [8, 7, 9, 6, 8]
+  }
+]
